@@ -1,14 +1,14 @@
-# Configuraciones de VPN basadas en SITE TO SITE & CLIENT TO SITE
+# Configuraciones de VPN SITE TO SITE 
 
 **Estudiante:** Masucci Franco Rincón  
 **Matrícula:** 2024-1250  
 **Asignatura:** Seguridad de Redes  
 **Fecha:** 20/03/2026  
----
+
 # Link VPN site to site with two fortigates: https://itlaedudo-my.sharepoint.com/:v:/g/personal/20241250_itla_edu_do/IQDfi07wg93jS7SnX9wN34bfAcfvc6bhrnPdDxF50z9h0Bk?e=2l6gX7
 
 
-# 🚀 PRIMERA PARTE: VPN SITE TO SITE UTILIZANDO 2 FORTIGATES
+# 🚀 PRIMERA PARTE: VPN SITE TO SITE USING 2 FORTIGATES
 
 ### Descripción y Topología 
 El propósito de este laboratorio es configurar un túnel cifrado (generalmente utilizando IPsec) entre los dos firewalls (FTG-1-WAN y FTG-2-WAN). 
