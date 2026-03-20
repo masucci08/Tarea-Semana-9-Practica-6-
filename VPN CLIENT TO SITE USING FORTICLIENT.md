@@ -1,5 +1,5 @@
 
-# 🛠️ PARTE 2: VPN CLIENT TO SITE BASED POLICIES IKEv2
+# 🛠️ PARTE 2: VPN Client To Site With Forticlient
 
 # Link VPN Client to site: https://itlaedudo-my.sharepoint.com/:v:/g/personal/20241250_itla_edu_do/IQDe7v6u4CjjRb8w_wPEke45ASCyMuGQD2R1Y5FlrMX8xYc?e=pokoag
 
@@ -75,8 +75,10 @@ El objetivo técnico final es configurar los parámetros del túnel dial-up en e
 > Esta captura demuestra el éxito de la negociación anterior (Mode Config). El FortiGate aceptó la conexión y le asignó dinámicamente al FortiClient una IP (.200) que pertenece precisamente al pool 10.12.50.192/26 definido en la regla de enrutamiento que vimos en la configuracion del perfil VPN
 <img src="https://placehold.co/1000x10/f44336/f44336.png" width="100%" height="10">
 
-## 5- Pruebas de Enrutamiento y Conectividad (Trace-route)
+## 5- Pruebas de Enrutamiento y Conectividad 
 <img width="1668" height="752" alt="image" src="https://github.com/user-attachments/assets/02f88c87-f88b-405d-823b-57af44639e5c" />
+<img width="457" height="187" alt="image" src="https://github.com/user-attachments/assets/6c52e3d8-8e6d-4fd5-8620-070c733c12c6" />
+
 
 
 
@@ -89,5 +91,7 @@ El objetivo técnico final es configurar los parámetros del túnel dial-up en e
 En el CMD de Windows con Forticlient: El comando ipconfig confirma que la máquina física tiene la IP pública 10.12.50.66 (asignada al adaptador Ethernet0), pero el adaptador VPN virtual recibió la IP 10.12.50.201 (una variación del pool, demostrando asignación dinámica).
 
 En webterm-1: El usuario intenta hacer un traceroute hacia la IP física del cliente de Windows (10.12.50.66). Vemos que el tráfico salta al gateway (10.12.50.1), luego al router del ISP (10.12.50.129) y después se pierde.
+
+Al final de cuentas vemos que no hay enrutamiento en las lans internas en R1, solo se comunican a traves de la Vpn
 ```
 <img src="https://placehold.co/1000x10/f44336/f44336.png" width="100%" height="10">
