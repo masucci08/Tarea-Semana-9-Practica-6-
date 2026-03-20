@@ -1,5 +1,9 @@
 
 # 🛠️ PARTE 2: VPN Client To Site With Forticlient
+**Estudiante:** Masucci Franco Rincón  
+**Matrícula:** 2024-1250  
+**Asignatura:** Seguridad de Redes  
+**Fecha:** 20/03/2026  
 
 # Link VPN Client to site: https://itlaedudo-my.sharepoint.com/:v:/g/personal/20241250_itla_edu_do/IQDe7v6u4CjjRb8w_wPEke45ASCyMuGQD2R1Y5FlrMX8xYc?e=pokoag
 
