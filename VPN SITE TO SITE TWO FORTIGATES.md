@@ -108,7 +108,9 @@ En ambas políticas, la opción de NAT está deshabilitada (Disabled). En una VP
 
 
 ## 7- Confirmación de Conectividad Extremo a Extremo 
-<img width="476" height="489" alt="ping -c 4" src="https://github.com/user-attachments/assets/df23f911-8f7a-4a96-9273-2eefebaf85da" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5a28fa81-63fb-48b6-bbbf-ba929f7ca4da" />
+
+
 
 
 > Una consola del equipo cliente de origen (webterm-1 en la LAN izquierda) ejecutando el comando de red básico ping hacia la IP destino 10.12.50.70 (el equipo webterm-2 en la LAN derecha). El parámetro -c 4 le indica que envíe exactamente 4 paquetes de prueba. Es la comprobación práctica. El resumen muestra 0% packet loss (cero paquetes perdidos), lo que significa que los cuatro paquetes enviados llegaron a la otra red y sus respectivas respuestas regresaron con éxito. Esto demuestra a nivel de capa de red que el tráfico está siendo correctamente enrutado hacia el FortiGate local, cifrado, enviado por el ISP, desencriptado por el FortiGate remoto y entregado a la IP destino.
